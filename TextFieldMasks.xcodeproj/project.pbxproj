@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDE678501E257E4F007E2455 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE6784F1E257E4F007E2455 /* AppDelegate.swift */; };
+		EDE678521E257E4F007E2455 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE678511E257E4F007E2455 /* ViewController.swift */; };
+		EDE678551E257E4F007E2455 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE678531E257E4F007E2455 /* Main.storyboard */; };
+		EDE678571E257E4F007E2455 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDE678561E257E4F007E2455 /* Assets.xcassets */; };
+		EDE6785A1E257E4F007E2455 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE678581E257E4F007E2455 /* LaunchScreen.storyboard */; };
+		EDE678651E257E50007E2455 /* TextFieldMasksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE678641E257E50007E2455 /* TextFieldMasksTests.swift */; };
+		EDE678701E257E50007E2455 /* TextFieldMasksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE6786F1E257E50007E2455 /* TextFieldMasksUITests.swift */; };
+		EDE6787E1E257E6C007E2455 /* TextFieldMasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE6787D1E257E6C007E2455 /* TextFieldMasks.swift */; };
+		EDE678821E257EA6007E2455 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE678811E257EA6007E2455 /* Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDE678611E257E50007E2455 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDE678441E257E4F007E2455 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDE6784B1E257E4F007E2455;
+			remoteInfo = TextFieldMasks;
+		};
+		EDE6786C1E257E50007E2455 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDE678441E257E4F007E2455 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDE6784B1E257E4F007E2455;
+			remoteInfo = TextFieldMasks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EDE6784C1E257E4F007E2455 /* TextFieldMasks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextFieldMasks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDE6784F1E257E4F007E2455 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDE678511E257E4F007E2455 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EDE678541E257E4F007E2455 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDE678561E257E4F007E2455 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDE678591E257E4F007E2455 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDE6785B1E257E4F007E2455 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDE678601E257E50007E2455 /* TextFieldMasksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextFieldMasksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDE678641E257E50007E2455 /* TextFieldMasksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldMasksTests.swift; sourceTree = "<group>"; };
+		EDE678661E257E50007E2455 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDE6786B1E257E50007E2455 /* TextFieldMasksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextFieldMasksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDE6786F1E257E50007E2455 /* TextFieldMasksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldMasksUITests.swift; sourceTree = "<group>"; };
+		EDE678711E257E50007E2455 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDE6787D1E257E6C007E2455 /* TextFieldMasks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldMasks.swift; sourceTree = "<group>"; };
+		EDE678811E257EA6007E2455 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDE678491E257E4F007E2455 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE6785D1E257E50007E2455 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE678681E257E50007E2455 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDE678431E257E4F007E2455 = {
+			isa = PBXGroup;
+			children = (
+				EDE6784E1E257E4F007E2455 /* TextFieldMasks */,
+				EDE678631E257E50007E2455 /* TextFieldMasksTests */,
+				EDE6786E1E257E50007E2455 /* TextFieldMasksUITests */,
+				EDE6784D1E257E4F007E2455 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDE6784D1E257E4F007E2455 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDE6784C1E257E4F007E2455 /* TextFieldMasks.app */,
+				EDE678601E257E50007E2455 /* TextFieldMasksTests.xctest */,
+				EDE6786B1E257E50007E2455 /* TextFieldMasksUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDE6784E1E257E4F007E2455 /* TextFieldMasks */ = {
+			isa = PBXGroup;
+			children = (
+				EDE6784F1E257E4F007E2455 /* AppDelegate.swift */,
+				EDE678801E257E71007E2455 /* Utils */,
+				EDE6787F1E257E6D007E2455 /* Views */,
+				EDE678531E257E4F007E2455 /* Main.storyboard */,
+				EDE678561E257E4F007E2455 /* Assets.xcassets */,
+				EDE678581E257E4F007E2455 /* LaunchScreen.storyboard */,
+				EDE6785B1E257E4F007E2455 /* Info.plist */,
+			);
+			path = TextFieldMasks;
+			sourceTree = "<group>";
+		};
+		EDE678631E257E50007E2455 /* TextFieldMasksTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDE678641E257E50007E2455 /* TextFieldMasksTests.swift */,
+				EDE678661E257E50007E2455 /* Info.plist */,
+			);
+			path = TextFieldMasksTests;
+			sourceTree = "<group>";
+		};
+		EDE6786E1E257E50007E2455 /* TextFieldMasksUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDE6786F1E257E50007E2455 /* TextFieldMasksUITests.swift */,
+				EDE678711E257E50007E2455 /* Info.plist */,
+			);
+			path = TextFieldMasksUITests;
+			sourceTree = "<group>";
+		};
+		EDE6787F1E257E6D007E2455 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EDE678511E257E4F007E2455 /* ViewController.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		EDE678801E257E71007E2455 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EDE6787D1E257E6C007E2455 /* TextFieldMasks.swift */,
+				EDE678811E257EA6007E2455 /* Extensions.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDE6784B1E257E4F007E2455 /* TextFieldMasks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDE678741E257E50007E2455 /* Build configuration list for PBXNativeTarget "TextFieldMasks" */;
+			buildPhases = (
+				EDE678481E257E4F007E2455 /* Sources */,
+				EDE678491E257E4F007E2455 /* Frameworks */,
+				EDE6784A1E257E4F007E2455 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextFieldMasks;
+			productName = TextFieldMasks;
+			productReference = EDE6784C1E257E4F007E2455 /* TextFieldMasks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDE6785F1E257E50007E2455 /* TextFieldMasksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDE678771E257E50007E2455 /* Build configuration list for PBXNativeTarget "TextFieldMasksTests" */;
+			buildPhases = (
+				EDE6785C1E257E50007E2455 /* Sources */,
+				EDE6785D1E257E50007E2455 /* Frameworks */,
+				EDE6785E1E257E50007E2455 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDE678621E257E50007E2455 /* PBXTargetDependency */,
+			);
+			name = TextFieldMasksTests;
+			productName = TextFieldMasksTests;
+			productReference = EDE678601E257E50007E2455 /* TextFieldMasksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDE6786A1E257E50007E2455 /* TextFieldMasksUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDE6787A1E257E50007E2455 /* Build configuration list for PBXNativeTarget "TextFieldMasksUITests" */;
+			buildPhases = (
+				EDE678671E257E50007E2455 /* Sources */,
+				EDE678681E257E50007E2455 /* Frameworks */,
+				EDE678691E257E50007E2455 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDE6786D1E257E50007E2455 /* PBXTargetDependency */,
+			);
+			name = TextFieldMasksUITests;
+			productName = TextFieldMasksUITests;
+			productReference = EDE6786B1E257E50007E2455 /* TextFieldMasksUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDE678441E257E4F007E2455 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Complab;
+				TargetAttributes = {
+					EDE6784B1E257E4F007E2455 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = XXT2XJVDAC;
+						ProvisioningStyle = Automatic;
+					};
+					EDE6785F1E257E50007E2455 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = XXT2XJVDAC;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EDE6784B1E257E4F007E2455;
+					};
+					EDE6786A1E257E50007E2455 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = XXT2XJVDAC;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EDE6784B1E257E4F007E2455;
+					};
+				};
+			};
+			buildConfigurationList = EDE678471E257E4F007E2455 /* Build configuration list for PBXProject "TextFieldMasks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDE678431E257E4F007E2455;
+			productRefGroup = EDE6784D1E257E4F007E2455 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDE6784B1E257E4F007E2455 /* TextFieldMasks */,
+				EDE6785F1E257E50007E2455 /* TextFieldMasksTests */,
+				EDE6786A1E257E50007E2455 /* TextFieldMasksUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDE6784A1E257E4F007E2455 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDE6785A1E257E4F007E2455 /* LaunchScreen.storyboard in Resources */,
+				EDE678571E257E4F007E2455 /* Assets.xcassets in Resources */,
+				EDE678551E257E4F007E2455 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE6785E1E257E50007E2455 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE678691E257E50007E2455 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDE678481E257E4F007E2455 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDE678521E257E4F007E2455 /* ViewController.swift in Sources */,
+				EDE678501E257E4F007E2455 /* AppDelegate.swift in Sources */,
+				EDE6787E1E257E6C007E2455 /* TextFieldMasks.swift in Sources */,
+				EDE678821E257EA6007E2455 /* Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE6785C1E257E50007E2455 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDE678651E257E50007E2455 /* TextFieldMasksTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE678671E257E50007E2455 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDE678701E257E50007E2455 /* TextFieldMasksUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDE678621E257E50007E2455 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDE6784B1E257E4F007E2455 /* TextFieldMasks */;
+			targetProxy = EDE678611E257E50007E2455 /* PBXContainerItemProxy */;
+		};
+		EDE6786D1E257E50007E2455 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDE6784B1E257E4F007E2455 /* TextFieldMasks */;
+			targetProxy = EDE6786C1E257E50007E2455 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDE678531E257E4F007E2455 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDE678541E257E4F007E2455 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDE678581E257E4F007E2455 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDE678591E257E4F007E2455 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDE678721E257E50007E2455 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDE678731E257E50007E2455 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDE678751E257E50007E2455 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XXT2XJVDAC;
+				INFOPLIST_FILE = TextFieldMasks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.bb.aasmarques.TextFieldMasks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EDE678761E257E50007E2455 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XXT2XJVDAC;
+				INFOPLIST_FILE = TextFieldMasks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.bb.aasmarques.TextFieldMasks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EDE678781E257E50007E2455 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = XXT2XJVDAC;
+				INFOPLIST_FILE = TextFieldMasksTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.bb.aasmarques.TextFieldMasksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextFieldMasks.app/TextFieldMasks";
+			};
+			name = Debug;
+		};
+		EDE678791E257E50007E2455 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = XXT2XJVDAC;
+				INFOPLIST_FILE = TextFieldMasksTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.bb.aasmarques.TextFieldMasksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextFieldMasks.app/TextFieldMasks";
+			};
+			name = Release;
+		};
+		EDE6787B1E257E50007E2455 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = XXT2XJVDAC;
+				INFOPLIST_FILE = TextFieldMasksUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.bb.aasmarques.TextFieldMasksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TextFieldMasks;
+			};
+			name = Debug;
+		};
+		EDE6787C1E257E50007E2455 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = XXT2XJVDAC;
+				INFOPLIST_FILE = TextFieldMasksUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.bb.aasmarques.TextFieldMasksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TextFieldMasks;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDE678471E257E4F007E2455 /* Build configuration list for PBXProject "TextFieldMasks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDE678721E257E50007E2455 /* Debug */,
+				EDE678731E257E50007E2455 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDE678741E257E50007E2455 /* Build configuration list for PBXNativeTarget "TextFieldMasks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDE678751E257E50007E2455 /* Debug */,
+				EDE678761E257E50007E2455 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EDE678771E257E50007E2455 /* Build configuration list for PBXNativeTarget "TextFieldMasksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDE678781E257E50007E2455 /* Debug */,
+				EDE678791E257E50007E2455 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EDE6787A1E257E50007E2455 /* Build configuration list for PBXNativeTarget "TextFieldMasksUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDE6787B1E257E50007E2455 /* Debug */,
+				EDE6787C1E257E50007E2455 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDE678441E257E4F007E2455 /* Project object */;
+}
